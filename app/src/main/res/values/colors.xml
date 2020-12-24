@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="walkthrough_bg_color">#f85953</color>
+    <color name="splash_bg">#ff403b</color>
+    <color name="sign_gray">#b5b5b5</color>
+    <color name="sign_box">#d7d7d7</color>
+
+    <color name="orange">#ff403b</color>
+    <color name="searchView">#FFEAE3DD</color>
+    <color name="silver">#c1c4c7</color>
+    <color name="sivertext">#333333</color>
+    <color name="unselectedcolor">#71797A</color>
+    <color name="selectedcolor">#FC5759</color>
+    <color name="background">#F1F1F1</color>
+    <color name="textcolor">#323032</color>
+    <color name="green">#FF9CE125</color>
+    <color name="greentext">#29da06</color>
+
+    <color name="font_black">#272d2f</color>
+
+    <color name="slot_select">#00d907</color>
+    <color name="un_select">#706868</color>
+    <color name="color101">#656565</color>
+    <color name="color60470">#3C2F00</color>
+    <color name="color394547">#272D2F</color>
+    <color name="color186186">#BABABA</color>
+
+    <color name="coloraddaddresheading">#66000000</color>
+    <color name="buttontext">#3c2f00</color>
+
+
+    <color name="black_transperant">#9f000000</color>
+
+</resources>

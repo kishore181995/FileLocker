@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/loginHow"
+                    android:background="@drawable/login_how"
+                    android:layout_gravity="end"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lock"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:textSize="30sp"
+                android:textColor="@color/color394547"
+                android:text="Login"
+                android:fontFamily="@font/montserrat_light"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/color101"
+                android:text="Enter your valid pin\nto login"
+                android:fontFamily="@font/montserrat_light"
+                android:layout_marginLeft="15dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat_light"
+                            android:id="@+id/pin1Et"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:id="@+id/pin2Et"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textColor="#949796"
+                            android:textStyle="bold"                            android:id="@+id/pin3Et"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textStyle="bold"
+                            android:id="@+id/pin4Et"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot Pin"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:id="@+id/forgotTv"
+                android:gravity="end"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/teal_700"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"
+                android:layout_marginRight="40dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/button">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    android:id="@+id/loginTv"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Submit"
+                    android:fontFamily="@font/montserrat_regular"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New user ? Create pin"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:id="@+id/resgisterTv"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/color60470"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

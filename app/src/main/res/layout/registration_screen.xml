@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/lock"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="30sp"
+                android:textColor="@color/color394547"
+                android:text="Generate Pin"
+                android:fontFamily="@font/montserrat_light"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:lineSpacingExtra="2.5dp"
+                android:textColor="@color/color101"
+                android:text="Enter a pin to login\nand save files"
+                android:fontFamily="@font/montserrat_light"
+                android:layout_marginLeft="15dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="18sp"
+                android:layout_marginStart="35dp"
+                android:lineSpacingExtra="2.5dp"
+                android:textColor="@color/color101"
+                android:text="Enter a pin "
+                android:fontFamily="@font/montserrat_light"
+                android:layout_marginLeft="15dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat_light"
+                            android:id="@+id/pin1Et"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:id="@+id/pin2Et"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:textColor="#949796"
+                            android:textStyle="bold"                            android:id="@+id/pin3Et"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:id="@+id/pin4Et"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="18sp"
+                android:layout_marginStart="35dp"
+                android:lineSpacingExtra="2.5dp"
+                android:textColor="@color/color101"
+                android:text="Cofirm pin "
+                android:fontFamily="@font/montserrat_light"
+                android:layout_marginLeft="15dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:fontFamily="@font/montserrat_light"
+                            android:id="@+id/pin1ConfirmEt"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:textStyle="bold"
+                            android:id="@+id/pin2ConfirmEt"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:id="@+id/pin3ConfirmEt"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/box"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/montserrat_light"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="#949796"
+                            android:textStyle="bold"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:id="@+id/pinConfirm4Et"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="18sp"
+                android:layout_marginStart="35dp"
+                android:lineSpacingExtra="2.5dp"
+                android:textColor="@color/color101"
+                android:text="Secret Question"
+                android:fontFamily="@font/montserrat_light"
+                android:layout_marginLeft="15dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/silver"
+                android:hint="Secret Number"
+                android:textColor="#949796"
+                android:maxLength="5"
+                android:inputType="number"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_light"
+                android:id="@+id/secretAnwser"
+                android:layout_marginLeft="35dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="25dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:id="@+id/resgisterSignTv"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Secure Pin Save"
+                    android:fontFamily="@font/montserrat_regular"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:id="@+id/alreadyUser"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/color60470"
+                android:text="Already a user?Login in"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

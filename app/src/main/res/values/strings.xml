@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ID Vallet</string>
+    <string name="info1">1. The application is use in saving your ids cards / normal pictures in your own storage.</string>
+    <string name="info2">2. Not only saving your ids cards / normal pictures , we can view them , delete added pictures ,then add new.</string>
+    <string name="info3">3. Internet is not all required for this application , as there no sharing your data to cloud or other servers.</string>
+    <string name="info4">4. Your data is stored within the app and once you delete the app thats deleted all the details/information that you have saved previously in the app.</string>
+    <string name="info5">5. Local app storage is used for the application where no hacking or stealing your personal data.</string>
+
+    <string name="login1">1. After successful installation of app. In login screen u need to select "new user ,create pin" option to proceed to registration screen.</string>
+    <string name="login2">2. In new user screen ,you need to provide a 4-digit pin twice to confirm pin, followed by a secret question to register with the application locally.</string>
+    <string name="login3">3. Then with the pin u have generated, you can login successfully and save the files/photos.</string>
+</resources>
